@@ -1,0 +1,82 @@
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: white;
+  font: 16px;
+}
+
+#intro {
+  display: block;
+  width: 75%;
+  margin: auto;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.wikibold {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.p1, .p2{
+  margin: 10px;
+}
+
+
+.p3 {
+  text-align: right;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.image-container{
+
+}
+
+.otherprojects-item {
+  display: inline-block;
+  /*width: 100px;
+  height: 100px;*/
+  line-height: 175px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+img {
+  /*position: relative;*/
+  width: 75px;
+  height: 90px;
+  float: left;
+  margin: 0 0 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#footer p{
+  display: block;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  padding-top: 25px;
+
+}
+
+ul {
+  border-top: .5 px solid #aaa;
+  text-align: center;
+  display: inline;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 30px;
+}
